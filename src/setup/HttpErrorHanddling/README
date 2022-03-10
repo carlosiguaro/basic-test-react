@@ -1,0 +1,7 @@
+400 Bad Request     -> Si el usuario ingresa un nombre del middleware incorrecto o el nombre de la vista.
+
+401 Unauthorize     -> Si el usuario intenta ingresar una ruta que este protegida por autenticacion.
+
+403 Forbidden       -> Si el usuario intenta acceder a una ruta a la cual no posee los permisos segun el middleware incluso si esta autenticado.
+
+404 Not Found       -> El recurso que se solicita no existe.
